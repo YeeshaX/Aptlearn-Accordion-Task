@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap");
+:root{
+    --body-bg: #f9f9f9;
+    --border: #ddd;
+    --shadow: 0px 4px 16px rgba(0, 0, 0, 0.09);
+    --icon-bg: #dedede;
+}
+h1,h4{
+    font-family: jost;
+}
+body{
+    background-color: var(--body-bg);
+    color: #444;
+    place-items: center;
+    display: grid;
+}
+.a_container{
+    box-shadow: var(--shadow);
+    width: 300px;
+    background: white;
+    padding: 32px;
+    border-radius: 8px;
+    margin-top: 100px;
+}
+.a_item{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid var(--border);
+    padding: 0px 24px;
+    margin-top: 16px;
+    background: var(--body-bg);
+    border-radius: 6px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: var(--shadow);
+}
+.a_icon{
+    background: var(--icon-bg);
+    height: 24px;
+    width: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    font-size: 20px;
+    box-shadow: var(--shadow);
+}
